@@ -25,4 +25,4 @@ for (let i = 0; i < numeroEstudiantes; i++) {
         listaNotas.push(nota);
 
 let resultado = calcularPromedio(listaNotas);
-console.log("El promedio de las notas es:", resultado)
+console.log("El promedio de las notas es:", resultado)}}
