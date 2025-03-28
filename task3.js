@@ -13,10 +13,8 @@ function buscarProducto(nombre) {
         return inventario[i];
       }
     }
-  
    
     return null;
   }
-  
-console.log(buscarProducto("Zapatos")); 
-console.log(buscarProducto("Bufanda"));
+  console.log(buscarProducto("Zapatos")); 
+  console.log(buscarProducto("Bufanda"));
