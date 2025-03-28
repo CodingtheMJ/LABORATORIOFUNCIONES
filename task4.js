@@ -21,7 +21,7 @@ let listaNotas = []
 for (let i = 0; i < numeroEstudiantes; i++) {
     let nota = prompt("Ingrese la nota del estudiante: ");
     nota = Number(nota);
-    if (nota || nota === 0) {
+    if (nota == nota === 0) {
         listaNotas.push(nota);
 
 let resultado = calcularPromedio(listaNotas);
